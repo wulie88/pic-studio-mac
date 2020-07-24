@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27B281BA24CACCC900528AE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B281B924CACCC900528AE6 /* AppDelegate.m */; };
+		27B281BD24CACCC900528AE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B281BC24CACCC900528AE6 /* ViewController.m */; };
+		27B281BF24CACCCB00528AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B281BE24CACCCB00528AE6 /* Assets.xcassets */; };
+		27B281C224CACCCB00528AE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B281C024CACCCB00528AE6 /* Main.storyboard */; };
+		27B281C524CACCCB00528AE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B281C424CACCCB00528AE6 /* main.m */; };
+		27B281CE24CAD16600528AE6 /* GuiderStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B281CD24CAD16600528AE6 /* GuiderStackView.m */; };
+		27B281D324CAD87100528AE6 /* ATDesktopEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B281D124CAD87100528AE6 /* ATDesktopEntity.m */; };
+		27B281D624CAE98B00528AE6 /* PicGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B281D524CAE98B00528AE6 /* PicGridView.m */; };
+		27B281D924CB134F00528AE6 /* SiderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B281D824CB134F00528AE6 /* SiderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27B281B524CACCC900528AE6 /* pic-studio-mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pic-studio-mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B281B824CACCC900528AE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27B281B924CACCC900528AE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27B281BB24CACCC900528AE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		27B281BC24CACCC900528AE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27B281BE24CACCCB00528AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27B281C124CACCCB00528AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27B281C324CACCCB00528AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B281C424CACCCB00528AE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27B281C624CACCCB00528AE6 /* pic_studio_mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pic_studio_mac.entitlements; sourceTree = "<group>"; };
+		27B281CC24CAD16600528AE6 /* GuiderStackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuiderStackView.h; sourceTree = "<group>"; };
+		27B281CD24CAD16600528AE6 /* GuiderStackView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuiderStackView.m; sourceTree = "<group>"; };
+		27B281D124CAD87100528AE6 /* ATDesktopEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATDesktopEntity.m; sourceTree = "<group>"; };
+		27B281D224CAD87100528AE6 /* ATDesktopEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATDesktopEntity.h; sourceTree = "<group>"; };
+		27B281D424CAE98B00528AE6 /* PicGridView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PicGridView.h; sourceTree = "<group>"; };
+		27B281D524CAE98B00528AE6 /* PicGridView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicGridView.m; sourceTree = "<group>"; };
+		27B281D724CB134F00528AE6 /* SiderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SiderView.h; sourceTree = "<group>"; };
+		27B281D824CB134F00528AE6 /* SiderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SiderView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27B281B224CACCC900528AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27B281AC24CACCC900528AE6 = {
+			isa = PBXGroup;
+			children = (
+				27B281B724CACCC900528AE6 /* pic-studio-mac */,
+				27B281B624CACCC900528AE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27B281B624CACCC900528AE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27B281B524CACCC900528AE6 /* pic-studio-mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27B281B724CACCC900528AE6 /* pic-studio-mac */ = {
+			isa = PBXGroup;
+			children = (
+				27B281D024CAD87100528AE6 /* Model */,
+				27B281B824CACCC900528AE6 /* AppDelegate.h */,
+				27B281B924CACCC900528AE6 /* AppDelegate.m */,
+				27B281BB24CACCC900528AE6 /* ViewController.h */,
+				27B281BC24CACCC900528AE6 /* ViewController.m */,
+				27B281BE24CACCCB00528AE6 /* Assets.xcassets */,
+				27B281C024CACCCB00528AE6 /* Main.storyboard */,
+				27B281C324CACCCB00528AE6 /* Info.plist */,
+				27B281C424CACCCB00528AE6 /* main.m */,
+				27B281C624CACCCB00528AE6 /* pic_studio_mac.entitlements */,
+				27B281CC24CAD16600528AE6 /* GuiderStackView.h */,
+				27B281CD24CAD16600528AE6 /* GuiderStackView.m */,
+				27B281D424CAE98B00528AE6 /* PicGridView.h */,
+				27B281D524CAE98B00528AE6 /* PicGridView.m */,
+				27B281D724CB134F00528AE6 /* SiderView.h */,
+				27B281D824CB134F00528AE6 /* SiderView.m */,
+			);
+			path = "pic-studio-mac";
+			sourceTree = "<group>";
+		};
+		27B281D024CAD87100528AE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27B281D224CAD87100528AE6 /* ATDesktopEntity.h */,
+				27B281D124CAD87100528AE6 /* ATDesktopEntity.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27B281B424CACCC900528AE6 /* pic-studio-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27B281C924CACCCB00528AE6 /* Build configuration list for PBXNativeTarget "pic-studio-mac" */;
+			buildPhases = (
+				27B281B124CACCC900528AE6 /* Sources */,
+				27B281B224CACCC900528AE6 /* Frameworks */,
+				27B281B324CACCC900528AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pic-studio-mac";
+			productName = "pic-studio-mac";
+			productReference = 27B281B524CACCC900528AE6 /* pic-studio-mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27B281AD24CACCC900528AE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = cnnl;
+				TargetAttributes = {
+					27B281B424CACCC900528AE6 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 27B281B024CACCC900528AE6 /* Build configuration list for PBXProject "pic-studio-mac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27B281AC24CACCC900528AE6;
+			productRefGroup = 27B281B624CACCC900528AE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27B281B424CACCC900528AE6 /* pic-studio-mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27B281B324CACCC900528AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B281BF24CACCCB00528AE6 /* Assets.xcassets in Resources */,
+				27B281C224CACCCB00528AE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27B281B124CACCC900528AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B281D924CB134F00528AE6 /* SiderView.m in Sources */,
+				27B281BD24CACCC900528AE6 /* ViewController.m in Sources */,
+				27B281CE24CAD16600528AE6 /* GuiderStackView.m in Sources */,
+				27B281C524CACCCB00528AE6 /* main.m in Sources */,
+				27B281D624CAE98B00528AE6 /* PicGridView.m in Sources */,
+				27B281D324CAD87100528AE6 /* ATDesktopEntity.m in Sources */,
+				27B281BA24CACCC900528AE6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27B281C024CACCCB00528AE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27B281C124CACCCB00528AE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27B281C724CACCCB00528AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		27B281C824CACCCB00528AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		27B281CA24CACCCB00528AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "pic-studio-mac/pic_studio_mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "pic-studio-mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnnl.pic-studio-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27B281CB24CACCCB00528AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "pic-studio-mac/pic_studio_mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "pic-studio-mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cnnl.pic-studio-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27B281B024CACCC900528AE6 /* Build configuration list for PBXProject "pic-studio-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B281C724CACCCB00528AE6 /* Debug */,
+				27B281C824CACCCB00528AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27B281C924CACCCB00528AE6 /* Build configuration list for PBXNativeTarget "pic-studio-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B281CA24CACCCB00528AE6 /* Debug */,
+				27B281CB24CACCCB00528AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27B281AD24CACCC900528AE6 /* Project object */;
+}
